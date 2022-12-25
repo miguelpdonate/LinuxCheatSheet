@@ -1,0 +1,50 @@
+Linux CheatSheet 25/12/22
+
+
+pwd = location
+ls = listing command
+ls -a = lisitng command including hidden files 
+ls -l = listing with extra info
+mkdir = makes a directory/folder
+cd (directory) = change directory
+cd .. = go back once
+cd = go home
+cd / = root of the system
+
+
+chmod = change the user acces to a file or directory
+			whom = u = user (owner)
+			g = group
+			o = others
+			a = all
+				
+		+ -> grants access
+		- -> removes access
+	what -> r = read*
+		w = write
+		x = execute*
+			*both has to be on for directory
+
+sudo (command) = execute command as root you need to provide with password
+sudo su - = become root 
+clear = clean sheet 
+touch (file name) = create file
+nano (file name) = text editor
+cat = shows contents of a file 
+less (file name) = same as cat but page by page 
+more = same as less but more advanced
+mv (file name) = move or rename file
+cp = copy files 
+rmdir = remove an empty directory 
+rm -rf (directory name) = remve non empty directory BE CAREFULL
+which (program name) = finds the location of the program name 
+sudo apt-get update = updates your packages (programs languages)
+ifconfig = to see your network details (IP adress) 
+ping (url or IP adress) = to check internet connection and servers  
+uname -a = system info
+blkid = shows hard drive 
+sudo apt install (program name) = install a new programm or command 
+htop (or top) = shows all programs currently running 
+sudo apt-get remove (program name) = removes programs from the system 
+ 
+
