@@ -46,5 +46,5 @@ blkid = shows hard drive
 sudo apt install (program name) = install a new programm or command 
 htop (or top) = shows all programs currently running 
 sudo apt-get remove (program name) = removes programs from the system 
- 
+lsb_release -a = version of Ubuntu Linux installed 
 
